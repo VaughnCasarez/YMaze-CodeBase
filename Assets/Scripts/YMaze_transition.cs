@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections;
 using System.IO;
 using System.Collections.Generic;
+using UXF;
 
 public class YMaze_transition : MonoBehaviour {
     //get the environments;
@@ -45,7 +46,7 @@ public class YMaze_transition : MonoBehaviour {
     private int correct_trials_counter = 0;
     private int envir_num = 0;
     private bool trial_switch = true;
-    private int consecutive_trial_num = 5;
+    private int consecutive_trial_num = Session.instance.settings.GetInt("trials");
 
     //for recording coordinates
     private float x_coor;
@@ -69,11 +70,10 @@ public class YMaze_transition : MonoBehaviour {
         m_Camera = Camera.main;
 
         GameManager info = GameObject.Find("GameManager").GetComponent<GameManager>();
-        id = info.id;
-        age = info.age;
-        gender = info.gender;
+        id = Session.instance.ppid;
+        age = (string)Session.instance.participantDetails["age"];
+        gender = (string)Session.instance.participantDetails["gender"];
         name = info.name;
-        num_of_envirs = int.Parse(info.trials);
         Debug.Log(num_of_envirs);
 
         all_envirs[0] = nature;
@@ -89,14 +89,6 @@ public class YMaze_transition : MonoBehaviour {
         transform.position = start_loc1;
         transform.eulerAngles = Ori1;
         controller.Mousereset();
-
-        //write the files
-        data = new StreamWriter("YMazePreference_" + id + "_" + name + ".tsv", true);
-        data.WriteLine("ID" + "\t" + "Gender" + "\t" + "Age" + "\t" + "MazeName" + "\t" + "Preference");
-        data.Flush();
-        coordinates = new StreamWriter("coordinates_" + id + "_" + name + ".tsv", true);
-        coordinates.WriteLine("Environment" + "\t" + "Cummulative_Time" + "\t" + "X" + "\t" + "Z" + "\t" + "rotation");
-        coordinates.Flush();
     }
 	
 	// Update is called once per frame
