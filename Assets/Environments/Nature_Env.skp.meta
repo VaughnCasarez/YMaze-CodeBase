@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: 945b4b994bafa2a40a8f83dc68fbd820
+timeCreated: 1533835743
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f0000003000000031000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 99c3e266b9c021d3d8ddfb2c0e39449b
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 24.90366, y: 9.295645, z: 7.890357}
+      lookAt: {x: 7.787792, y: 2.34481, z: -8.262469}
+      up: {x: -0.20600124, y: 0.95904547, z: -0.19441037}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chair
+    100004: Chair.obj
+    100006: Cube.001_Cube.002
+    100008: Cube.003
+    100010: Cube_Cube.001
+    100012: Cube_Cube.001 1
+    100014: Plane.001
+    100016: plant
+    100018: vaso2-dsjfghs
+    100020: A Harlequin
+    100022: Component#37
+    100024: Group 22
+    100026: Group 24
+    100028: Group 26
+    100030: Group 28
+    100032: Group 30
+    100034: Group 32
+    100036: Group 33
+    100038: Group 35
+    100040: Group 36
+    100042: Group 38
+    100044: Group 40
+    100046: Group 41
+    100048: Group 43
+    100050: Group 45
+    100052: Group 46
+    100054: Toy
+    100056: Fire Hydrant
+    400000: //RootNode
+    400002: Chair
+    400004: Chair.obj
+    400006: Cube.001_Cube.002
+    400008: Cube.003
+    400010: Cube_Cube.001
+    400012: Cube_Cube.001 1
+    400014: Plane.001
+    400016: plant
+    400018: vaso2-dsjfghs
+    400020: A Harlequin
+    400022: Component#37
+    400024: Group 22
+    400026: Group 24
+    400028: Group 26
+    400030: Group 28
+    400032: Group 30
+    400034: Group 32
+    400036: Group 33
+    400038: Group 35
+    400040: Group 36
+    400042: Group 38
+    400044: Group 40
+    400046: Group 41
+    400048: Group 43
+    400050: Group 45
+    400052: Group 46
+    400054: Toy
+    400056: Fire Hydrant
+    2100000: _defaultMat
+    2100002: '[Vegetation Blur 02]'
+    2100004: '[Groundcover Rock Crushed Multi]1'
+    2100006: '[Pavers Modular Brick]'
+    2100008: '[Wood Fence with Lattice]'
+    2300000: //RootNode
+    2300002: Cube.001_Cube.002
+    2300004: Cube.003
+    2300006: Cube_Cube.001
+    2300008: Cube_Cube.001 1
+    2300010: Plane.001
+    2300012: vaso2-dsjfghs
+    2300014: Component#37
+    2300016: Group 22
+    2300018: Group 24
+    2300020: Group 26
+    2300022: Group 28
+    2300024: Group 30
+    2300026: Group 33
+    2300028: Group 36
+    2300030: Group 38
+    2300032: Group 41
+    2300034: Group 43
+    2300036: Group 46
+    2300038: Toy
+    2300040: Fire Hydrant
+    3300000: //RootNode
+    3300002: Cube.001_Cube.002
+    3300004: Cube.003
+    3300006: Cube_Cube.001
+    3300008: Cube_Cube.001 1
+    3300010: Plane.001
+    3300012: vaso2-dsjfghs
+    3300014: Component#37
+    3300016: Group 22
+    3300018: Group 24
+    3300020: Group 26
+    3300022: Group 28
+    3300024: Group 30
+    3300026: Group 33
+    3300028: Group 36
+    3300030: Group 38
+    3300032: Group 41
+    3300034: Group 43
+    3300036: Group 46
+    3300038: Toy
+    3300040: Fire Hydrant
+    4300000: Mesh Nature_Env
+    4300002: Mesh vaso2-dsjfghs
+    4300004: Mesh Cube.003
+    4300006: Mesh Cube.001_Cube.002
+    4300008: Mesh Plane.001
+    4300010: Mesh Cube_Cube.001
+    4300012: Mesh Component#37
+    4300014: Mesh Toy
+    4300016: Mesh Group 22
+    4300018: Mesh Group 24
+    4300020: Mesh Group 26
+    4300022: Mesh Group 28
+    4300024: Mesh Group 30
+    4300026: Mesh Group 33
+    4300028: Mesh Group 36
+    4300030: Mesh Group 38
+    4300032: Mesh Group 46
+    4300034: Mesh Fire Hydrant
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 756dd5e08b528427243715f749fb1ee8
+    second: {fileID: 2100000, guid: dae01d6298679c841a44cbbd06548c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 86.0047.01 CELLINI Silver_Argento
+    second: {fileID: 2100000, guid: db23bc45908e34e449b9e064bfc8a272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None
+    second: {fileID: 2100000, guid: d37837def924fe744a37aa12ad352200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0002_MediumVioletRed]'
+    second: {fileID: 2100000, guid: 2455b67fa96b8344f961ef61ade6f721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0003_DeepPink]'
+    second: {fileID: 2100000, guid: 63687023f9cfce540a00e950565c8b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0004_HotPink]'
+    second: {fileID: 2100000, guid: 8a3603a77e5c7df4ebd6e3097579b801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0005_LightPink]'
+    second: {fileID: 2100000, guid: dca6e10b70cc45d4182d6fd77fed0c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0006_Pink]'
+    second: {fileID: 2100000, guid: a107fbdcc7587144790f02b36f0089ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0007_MistyRose]'
+    second: {fileID: 2100000, guid: 37b8b65d56f29ff4fb6901d20f29d397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0008_LavenderBlush]'
+    second: {fileID: 2100000, guid: 8aaa770fa302d474588ec56b20722e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0009_Linen]'
+    second: {fileID: 2100000, guid: d2ab182234d3ae7449e45ec85c5e8882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0010_Snow]'
+    second: {fileID: 2100000, guid: 18439ed358b690045ba5b9a4f3fdfc86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0011_Seashell]'
+    second: {fileID: 2100000, guid: 03fb1a790bb7af94882ec3c10e30ece3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0012_Bisque]'
+    second: {fileID: 2100000, guid: cf11eb6a3ca18e24ab09958ad2f9a3d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0013_LightCoral]'
+    second: {fileID: 2100000, guid: 735abd49cd590fb469eea7a632143015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0014_DarkSalmon]'
+    second: {fileID: 2100000, guid: 45be22f93f25a25458cafeb729342f3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0015_Salmon]'
+    second: {fileID: 2100000, guid: 5588870f7b8b34d499d6b88631d39652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0016_Tomato]'
+    second: {fileID: 2100000, guid: d863d541445b2c94bb878cfe48f3331a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0017_IndianRed]'
+    second: {fileID: 2100000, guid: 3bd63e31dedaa3e4bb48b888b39452a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0018_Brown]'
+    second: {fileID: 2100000, guid: af5ddb579570a7c4eb04f3ac5c196b9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0019_Crimson]'
+    second: {fileID: 2100000, guid: 16aa01302097dc4409f34804cc15eb30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0020_Red]'
+    second: {fileID: 2100000, guid: 538ff33fc258c0845a3592e0d87bdddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0021_DarkRed]'
+    second: {fileID: 2100000, guid: a64d07ee8ee9f034d8792163cea3676d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0022_Maroon]'
+    second: {fileID: 2100000, guid: 4d1018ecacda32e40bd82208bc29e316, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0023_FireBrick]'
+    second: {fileID: 2100000, guid: 8aee003b3965fc94b8d7a1d9b0b4deda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0024_OrangeRed]'
+    second: {fileID: 2100000, guid: 6e529f66e7386d34ea7461e7c51769e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0035_Tan]'
+    second: {fileID: 2100000, guid: 899e76c44fe201b47b4f42e9eb33a68c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0038_Orange]'
+    second: {fileID: 2100000, guid: 0d8f244f19cefd745a1107f290912d50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0039_DarkOrange]'
+    second: {fileID: 2100000, guid: 38b6816e6624a83479f0bbf4be7db4f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0056_Yellow]'
+    second: {fileID: 2100000, guid: de58f344a0f8e5244be8d550e5e7ac09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0065_Lime]'
+    second: {fileID: 2100000, guid: f9c3707a66e7bf64aa3e5cbb7c6be26c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0104_MediumBlue]'
+    second: {fileID: 2100000, guid: 75e1d37b3b7c47d419c4bc40aa9cf8b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0108_Indigo]'
+    second: {fileID: 2100000, guid: b5fc6e807949fb24697943cfcfb80fb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0134_DimGray]'
+    second: {fileID: 2100000, guid: 4c120f04b2a4c8d4a9ddc0df77ccb020, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0135_DarkGray]'
+    second: {fileID: 2100000, guid: 11bf7919b110ab84d8b7a5792fcba37c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0136_Charcoal]'
+    second: {fileID: 2100000, guid: 3f5fb9147a3d97c4d980e8cf34794d2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0137_Black]'
+    second: {fileID: 2100000, guid: 637036c00383df545bb24baba0ae94e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Cladding_Stucco_White]'
+    second: {fileID: 2100000, guid: 679719183b07e8a4eb8f47ba6a9275ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color L02]'
+    second: {fileID: 2100000, guid: 7d2de4f411f9ec447af56f2f1ba7ccb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M00]'
+    second: {fileID: 2100000, guid: 078aa32925b66d14e887d4ae7081f74c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M09]'
+    second: {fileID: 2100000, guid: a63d511d7b72c3a4aba32f5e40121a7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_E02]'
+    second: {fileID: 2100000, guid: b9e04db0e3664954f8d0e0af68d1c503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_I06]'
+    second: {fileID: 2100000, guid: 82fc34f9725cd7f4687e36c36de07fc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Groundcover Rock Crushed Multi]1'
+    second: {fileID: 2100000, guid: ad5d159a48484fd459305c673b2e584f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Groundcover Rock Crushed Multi]2'
+    second: {fileID: 2100000, guid: 131c881291cf9bd4cb64d6c2a6af0e47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Groundcover_Gravel_Indian]1'
+    second: {fileID: 2100000, guid: 18041a42a483ac445b9c46251556d017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Mosaic Hexagonal Tile]'
+    second: {fileID: 2100000, guid: 75cdf1dbe25be284b8e3d757c9f0e6f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Pavers Modular Brick]'
+    second: {fileID: 2100000, guid: f4d9cd817d257f84bb5c6ad3cad8c709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Sketchy_Siding_Straight]1'
+    second: {fileID: 2100000, guid: f0aab90c36f5e9f4cbca6480eb7d7983, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent_Glass_Sky_Reflection]'
+    second: {fileID: 2100000, guid: 3a0a8bfb02ebed34d839b5da231a9733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Vegetation Blur 02]'
+    second: {fileID: 2100000, guid: 793b6fb6649c336419359863de7700be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Vegetation_Blur7]'
+    second: {fileID: 2100000, guid: ae52332ac0ab965428a0f10dd460cc35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood Fence with Lattice]'
+    second: {fileID: 2100000, guid: 9b189f22ccc86b0449b940affb0d3ba8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: a54089779bc0ded46810f23d801e21d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreto
+    second: {fileID: 2100000, guid: 7dfcaacb7ea8f7a4089a6058a3660d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pedinhas
+    second: {fileID: 2100000, guid: ebb8dc7fe6a1a19488f8cf36f67bba7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: planta16-dksjfhs
+    second: {fileID: 2100000, guid: fd64d25a3b882f84b9be25b0803f0ee7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

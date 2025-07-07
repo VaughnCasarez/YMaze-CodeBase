@@ -1,0 +1,886 @@
+fileFormatVersion: 2
+guid: ef8fdf1ce1cd28a4d88b824db2e6f0d4
+timeCreated: 1534263136
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 89b554ded0574e222b028581e0feeae0
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 26.03322, y: 12.397898, z: -1.1297936}
+      lookAt: {x: -1.2282963, y: -0.7475928, z: 27.600737}
+      up: {x: -0.21682638, y: 0.9490887, z: 0.22851029}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Component#1
+    100002: Component#2
+    100004: Component#3
+    100006: Component#3 1
+    100008: Component#6
+    100010: computer
+    100012: CouchArm
+    100014: CouchArm 1
+    100016: CouchLeg
+    100018: CouchLeg 1
+    100020: CouchLeg 2
+    100022: CouchLeg 3
+    100024: CouchStretch
+    100026: CushionBack
+    100028: CushionBackEnd
+    100030: CushionBackEnd 1
+    100032: CushionBackStretch
+    100034: CushionBottom
+    100036: CushionBottomEnd
+    100038: CushionBottomEnd 1
+    100040: CushionBottomStretch
+    100042: download?mid=8bad639b9a650908de650492e45fb14f&rtyp=s6
+    100044: e#1
+    100046: emachines
+    100048: Group 101
+    100050: Group 102
+    100052: Group 104
+    100054: Group 106
+    100056: Group 107
+    100058: Group 109
+    100060: Group 11
+    100062: Group 111
+    100064: Group 113
+    100066: Group 114
+    100068: Group 116
+    100070: Group 118
+    100072: Group 123
+    100074: Group 125
+    100076: Group 127
+    100078: Group 129
+    100080: Group 13
+    100082: Group 131
+    100084: Group 133
+    100086: Group 135
+    100088: Group 137
+    100090: Group 139
+    100092: Group 14
+    100094: Group 140
+    100096: Group 142
+    100098: Group 144
+    100100: Group 146
+    100102: Group 147
+    100104: Group 149
+    100106: Group 151
+    100108: Group 153
+    100110: Group 155
+    100112: Group 16
+    100114: Group 18
+    100116: Group 19
+    100118: Group 20
+    100120: Group 211
+    100122: Group 214
+    100124: Group 22
+    100126: Group 24
+    100128: Group 26
+    100130: Group 27
+    100132: Group 29
+    100134: Group 3
+    100136: Group 31
+    100138: Group 33
+    100140: Group 34
+    100142: Group 36
+    100144: Group 38
+    100146: Group 39
+    100148: Group 4
+    100150: Group 41
+    100152: Group 43
+    100154: Group 45
+    100156: Group 46
+    100158: Group 48
+    100160: Group 50
+    100162: Group 52
+    100164: Group 53
+    100166: Group 55
+    100168: Group 57
+    100170: Group 59
+    100172: Group 6
+    100174: Group 60
+    100176: Group 62
+    100178: Group 64
+    100180: Group 66
+    100182: Group 67
+    100184: Group 68
+    100186: Group 70
+    100188: Group 72
+    100190: Group 74
+    100192: Group 75
+    100194: Group 77
+    100196: Group 79
+    100198: Group 8
+    100200: Group 81
+    100202: Group 82
+    100204: Group 84
+    100206: Group 86
+    100208: Group 87
+    100210: Group 88
+    100212: Group 9
+    100214: Group 90
+    100216: Group 92
+    100218: Group 94
+    100220: Group 95
+    100222: Group 97
+    100224: Group 99
+    100226: Group#15
+    100228: IKEA PS 2014
+    100230: Image 190
+    100232: Image 191
+    100234: Image 210
+    100236: 'Office Chair : DO-HBA : Orangebox'
+    100238: "Office furniture \u529E\u516C\u5BB6\u5177"
+    100240: //RootNode
+    100242: sofa
+    100244: Technology - Keyboard
+    100246: VA1912wb
+    100248: VeiwSonic
+    100250: Group 181
+    100252: Group 184
+    100254: Image 160
+    100256: Image 161
+    100258: Image 180
+    100260: SOFA#1
+    400000: Component#1
+    400002: Component#2
+    400004: Component#3
+    400006: Component#3 1
+    400008: Component#6
+    400010: computer
+    400012: CouchArm
+    400014: CouchArm 1
+    400016: CouchLeg
+    400018: CouchLeg 1
+    400020: CouchLeg 2
+    400022: CouchLeg 3
+    400024: CouchStretch
+    400026: CushionBack
+    400028: CushionBackEnd
+    400030: CushionBackEnd 1
+    400032: CushionBackStretch
+    400034: CushionBottom
+    400036: CushionBottomEnd
+    400038: CushionBottomEnd 1
+    400040: CushionBottomStretch
+    400042: download?mid=8bad639b9a650908de650492e45fb14f&rtyp=s6
+    400044: e#1
+    400046: emachines
+    400048: Group 101
+    400050: Group 102
+    400052: Group 104
+    400054: Group 106
+    400056: Group 107
+    400058: Group 109
+    400060: Group 11
+    400062: Group 111
+    400064: Group 113
+    400066: Group 114
+    400068: Group 116
+    400070: Group 118
+    400072: Group 123
+    400074: Group 125
+    400076: Group 127
+    400078: Group 129
+    400080: Group 13
+    400082: Group 131
+    400084: Group 133
+    400086: Group 135
+    400088: Group 137
+    400090: Group 139
+    400092: Group 14
+    400094: Group 140
+    400096: Group 142
+    400098: Group 144
+    400100: Group 146
+    400102: Group 147
+    400104: Group 149
+    400106: Group 151
+    400108: Group 153
+    400110: Group 155
+    400112: Group 16
+    400114: Group 18
+    400116: Group 19
+    400118: Group 20
+    400120: Group 211
+    400122: Group 214
+    400124: Group 22
+    400126: Group 24
+    400128: Group 26
+    400130: Group 27
+    400132: Group 29
+    400134: Group 3
+    400136: Group 31
+    400138: Group 33
+    400140: Group 34
+    400142: Group 36
+    400144: Group 38
+    400146: Group 39
+    400148: Group 4
+    400150: Group 41
+    400152: Group 43
+    400154: Group 45
+    400156: Group 46
+    400158: Group 48
+    400160: Group 50
+    400162: Group 52
+    400164: Group 53
+    400166: Group 55
+    400168: Group 57
+    400170: Group 59
+    400172: Group 6
+    400174: Group 60
+    400176: Group 62
+    400178: Group 64
+    400180: Group 66
+    400182: Group 67
+    400184: Group 68
+    400186: Group 70
+    400188: Group 72
+    400190: Group 74
+    400192: Group 75
+    400194: Group 77
+    400196: Group 79
+    400198: Group 8
+    400200: Group 81
+    400202: Group 82
+    400204: Group 84
+    400206: Group 86
+    400208: Group 87
+    400210: Group 88
+    400212: Group 9
+    400214: Group 90
+    400216: Group 92
+    400218: Group 94
+    400220: Group 95
+    400222: Group 97
+    400224: Group 99
+    400226: Group#15
+    400228: IKEA PS 2014
+    400230: Image 190
+    400232: Image 191
+    400234: Image 210
+    400236: 'Office Chair : DO-HBA : Orangebox'
+    400238: "Office furniture \u529E\u516C\u5BB6\u5177"
+    400240: //RootNode
+    400242: sofa
+    400244: Technology - Keyboard
+    400246: VA1912wb
+    400248: VeiwSonic
+    400250: Group 181
+    400252: Group 184
+    400254: Image 160
+    400256: Image 161
+    400258: Image 180
+    400260: SOFA#1
+    2100000: _defaultMat
+    2100002: '[Carpet Diamond Olive]'
+    2100004: '[Mosaic Hexagonal Tile]'
+    2100006: '[Carpet Loop Pattern]'
+    2100008: '[Carpet Diamond Yellow]'
+    2100010: '[Carpet Berber Pattern Gray]1'
+    2100012: '[Textile Leaves Green]'
+    2100014: Wood_Floor_Light
+    2100016: Color_007
+    2100018: Color_003
+    2100020: Color_000
+    2100022: Color_002
+    2100024: '[Metal Silver]'
+    2100026: '[Carpet Berber Pattern Gray]'
+    2100028: '[Color M07]'
+    2100030: '[Color M00]'
+    2100032: '[Color M03]'
+    2100034: '[Aluminum]'
+    2100036: '[Color A01]'
+    2100038: '[Color_000]2'
+    2100040: _2
+    2100042: '[Color_A01]'
+    2100044: '[0048_PaleGoldenrod]'
+    2100046: Fencing_Chain_Link
+    2100048: '[0131_Silver]'
+    2100050: '[0046_Gold]'
+    2100052: '[0134_DimGray]'
+    2100054: Material 27
+    2100056: Material 28
+    2100058: '[0137_Black]'
+    2100060: '[Metal_Corrogated_Shiny]'
+    2100062: '[Color_009]'
+    2100064: '[Color_F01]'
+    2100066: '[Color_006]'
+    2100068: '[0065_Lime]'
+    2100070: '[Color_004]'
+    2100072: '[Color_002]'
+    2100074: Textur 1
+    2100076: _Gray6_
+    2100078: Material 39
+    2100080: face-profile-bigger[1]
+    2100082: _Charcoal_
+    2100084: _4
+    2100086: _6
+    2300000: Component#1
+    2300002: Component#2
+    2300004: Component#3
+    2300006: Component#3 1
+    2300008: Component#6
+    2300010: CouchArm
+    2300012: CouchArm 1
+    2300014: CouchLeg
+    2300016: CouchLeg 1
+    2300018: CouchLeg 2
+    2300020: CouchLeg 3
+    2300022: CouchStretch
+    2300024: CushionBackEnd
+    2300026: CushionBackEnd 1
+    2300028: CushionBackStretch
+    2300030: CushionBottomEnd
+    2300032: CushionBottomEnd 1
+    2300034: CushionBottomStretch
+    2300036: e#1
+    2300038: emachines
+    2300040: Group 102
+    2300042: Group 104
+    2300044: Group 107
+    2300046: Group 109
+    2300048: Group 11
+    2300050: Group 111
+    2300052: Group 114
+    2300054: Group 116
+    2300056: Group 118
+    2300058: Group 123
+    2300060: Group 125
+    2300062: Group 127
+    2300064: Group 129
+    2300066: Group 131
+    2300068: Group 133
+    2300070: Group 135
+    2300072: Group 137
+    2300074: Group 14
+    2300076: Group 140
+    2300078: Group 142
+    2300080: Group 144
+    2300082: Group 147
+    2300084: Group 149
+    2300086: Group 151
+    2300088: Group 153
+    2300090: Group 155
+    2300092: Group 16
+    2300094: Group 20
+    2300096: Group 211
+    2300098: Group 214
+    2300100: Group 22
+    2300102: Group 24
+    2300104: Group 27
+    2300106: Group 29
+    2300108: Group 31
+    2300110: Group 34
+    2300112: Group 36
+    2300114: Group 39
+    2300116: Group 4
+    2300118: Group 41
+    2300120: Group 43
+    2300122: Group 46
+    2300124: Group 48
+    2300126: Group 50
+    2300128: Group 53
+    2300130: Group 55
+    2300132: Group 57
+    2300134: Group 6
+    2300136: Group 60
+    2300138: Group 62
+    2300140: Group 64
+    2300142: Group 68
+    2300144: Group 70
+    2300146: Group 72
+    2300148: Group 75
+    2300150: Group 77
+    2300152: Group 79
+    2300154: Group 82
+    2300156: Group 84
+    2300158: Group 88
+    2300160: Group 9
+    2300162: Group 90
+    2300164: Group 92
+    2300166: Group 95
+    2300168: Group 97
+    2300170: Group 99
+    2300172: Image 190
+    2300174: Image 191
+    2300176: Image 210
+    2300178: 'Office Chair : DO-HBA : Orangebox'
+    2300180: //RootNode
+    2300182: Technology - Keyboard
+    2300184: VA1912wb
+    2300186: VeiwSonic
+    2300188: Group 181
+    2300190: Group 184
+    2300192: Image 160
+    2300194: Image 161
+    2300196: Image 180
+    2300198: SOFA#1
+    3300000: Component#1
+    3300002: Component#2
+    3300004: Component#3
+    3300006: Component#3 1
+    3300008: Component#6
+    3300010: CouchArm
+    3300012: CouchArm 1
+    3300014: CouchLeg
+    3300016: CouchLeg 1
+    3300018: CouchLeg 2
+    3300020: CouchLeg 3
+    3300022: CouchStretch
+    3300024: CushionBackEnd
+    3300026: CushionBackEnd 1
+    3300028: CushionBackStretch
+    3300030: CushionBottomEnd
+    3300032: CushionBottomEnd 1
+    3300034: CushionBottomStretch
+    3300036: e#1
+    3300038: emachines
+    3300040: Group 102
+    3300042: Group 104
+    3300044: Group 107
+    3300046: Group 109
+    3300048: Group 11
+    3300050: Group 111
+    3300052: Group 114
+    3300054: Group 116
+    3300056: Group 118
+    3300058: Group 123
+    3300060: Group 125
+    3300062: Group 127
+    3300064: Group 129
+    3300066: Group 131
+    3300068: Group 133
+    3300070: Group 135
+    3300072: Group 137
+    3300074: Group 14
+    3300076: Group 140
+    3300078: Group 142
+    3300080: Group 144
+    3300082: Group 147
+    3300084: Group 149
+    3300086: Group 151
+    3300088: Group 153
+    3300090: Group 155
+    3300092: Group 16
+    3300094: Group 20
+    3300096: Group 211
+    3300098: Group 214
+    3300100: Group 22
+    3300102: Group 24
+    3300104: Group 27
+    3300106: Group 29
+    3300108: Group 31
+    3300110: Group 34
+    3300112: Group 36
+    3300114: Group 39
+    3300116: Group 4
+    3300118: Group 41
+    3300120: Group 43
+    3300122: Group 46
+    3300124: Group 48
+    3300126: Group 50
+    3300128: Group 53
+    3300130: Group 55
+    3300132: Group 57
+    3300134: Group 6
+    3300136: Group 60
+    3300138: Group 62
+    3300140: Group 64
+    3300142: Group 68
+    3300144: Group 70
+    3300146: Group 72
+    3300148: Group 75
+    3300150: Group 77
+    3300152: Group 79
+    3300154: Group 82
+    3300156: Group 84
+    3300158: Group 88
+    3300160: Group 9
+    3300162: Group 90
+    3300164: Group 92
+    3300166: Group 95
+    3300168: Group 97
+    3300170: Group 99
+    3300172: Image 190
+    3300174: Image 191
+    3300176: Image 210
+    3300178: 'Office Chair : DO-HBA : Orangebox'
+    3300180: //RootNode
+    3300182: Technology - Keyboard
+    3300184: VA1912wb
+    3300186: VeiwSonic
+    3300188: Group 181
+    3300190: Group 184
+    3300192: Image 160
+    3300194: Image 161
+    3300196: Image 180
+    3300198: SOFA#1
+    4300000: Mesh Office_Env
+    4300002: Mesh Group 4
+    4300004: Mesh Group 6
+    4300006: Mesh Group 20
+    4300008: Mesh Group 22
+    4300010: Mesh Group 24
+    4300012: Mesh Group 27
+    4300014: Mesh Group 29
+    4300016: Mesh Group 31
+    4300018: Mesh Group 34
+    4300020: Mesh Group 39
+    4300022: Mesh Group 41
+    4300024: Mesh Group 43
+    4300026: 'Mesh Office Chair : DO-HBA : Orangebox'
+    4300028: Mesh Group 123
+    4300030: Mesh Group 131
+    4300032: Mesh Group 133
+    4300034: Mesh Group 135
+    4300036: Mesh Group 137
+    4300038: Mesh Group 140
+    4300040: Mesh Group 144
+    4300042: Mesh Group 151
+    4300044: Mesh Group 153
+    4300046: Mesh CouchArm
+    4300048: Mesh CouchLeg
+    4300050: Mesh CouchStretch
+    4300052: Mesh CushionBottomEnd
+    4300054: Mesh CushionBottomStretch
+    4300056: Mesh CushionBackStretch
+    4300058: Mesh CushionBackEnd
+    4300060: Mesh Component#6
+    4300062: Mesh Component#6
+    4300064: Mesh Component#6
+    4300066: Mesh Component#3
+    4300068: Mesh Component#3
+    4300070: Mesh Component#1
+    4300072: Mesh VeiwSonic
+    4300074: Mesh Component#2
+    4300076: Mesh emachines
+    4300078: Mesh e#1
+    4300080: Mesh VA1912wb
+    4300082: Mesh Technology - Keyboard
+    4300084: Mesh Technology - Keyboard
+    4300086: Mesh Group 211
+    4300088: Mesh Group 214
+    4300090: Mesh Group 181
+    4300092: Mesh Group 184
+    4300094: Mesh SOFA#1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_000
+    second: {fileID: 2100000, guid: d8fd40cc4c2ca3f4685056d93ab3041d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_002
+    second: {fileID: 2100000, guid: 10b7b5d1b54f9e3419c50f2aacc33be4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_003
+    second: {fileID: 2100000, guid: 04008a3ae8f7ef44ea0aabd3fa875494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_007
+    second: {fileID: 2100000, guid: 797963f73d2bfe64ba680c76f1ff1ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fencing_Chain_Link
+    second: {fileID: 2100000, guid: 01e7e2be05efec84a832bea89791b9ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material 26
+    second: {fileID: 2100000, guid: 8c90f2c95e77ee54486523e49305f77e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material 27
+    second: {fileID: 2100000, guid: e88c7fc980c05e74fb3f7c23c23424be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material 38
+    second: {fileID: 2100000, guid: 94f0f038eab45ce43b50e64b4b89af2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textur 1
+    second: {fileID: 2100000, guid: 7f30130576c7a0741965d181a3969201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Floor_Light
+    second: {fileID: 2100000, guid: a606d765f7503fc408c41239e6a628dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0046_Gold]'
+    second: {fileID: 2100000, guid: bbf73e8df839f5a478cdd1746201cb03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0048_PaleGoldenrod]'
+    second: {fileID: 2100000, guid: d6d7e7b5b3e743a40bf02c066f15f7ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0065_Lime]'
+    second: {fileID: 2100000, guid: 6fdc449f1e4bd9e4794ba062513f73ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0131_Silver]'
+    second: {fileID: 2100000, guid: 4c7ebb595838b4343b491048c37dd1ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0134_DimGray]'
+    second: {fileID: 2100000, guid: 2720e7e5e0bd2c64aa65ddf6adb78691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0137_Black]'
+    second: {fileID: 2100000, guid: b820ad483005d6145aef04477eecb568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Aluminum]'
+    second: {fileID: 2100000, guid: f8606a98cb232ca4ea8152ff9ca6d1f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet Berber Pattern Gray]'
+    second: {fileID: 2100000, guid: ec49fa8dccc4f5d45921b67f149a9d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet Berber Pattern Gray]1'
+    second: {fileID: 2100000, guid: 94df9248714b3f4459ac4908036c3063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet Diamond Olive]'
+    second: {fileID: 2100000, guid: e54e04e53e2934e49885c4406218d6a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet Diamond Yellow]'
+    second: {fileID: 2100000, guid: 311839cf9b6014947a494dca2799d8f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet Loop Pattern]'
+    second: {fileID: 2100000, guid: 974ab5b6c863c25479ca91374a79b0da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet_Plush_Forest]'
+    second: {fileID: 2100000, guid: 9b8d242316516604fbaedced0e88f958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color A01]'
+    second: {fileID: 2100000, guid: fb6a2125373d031469438434ea4959c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M00]'
+    second: {fileID: 2100000, guid: cf0adaa5897e13049ba87a9c721797f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M03]'
+    second: {fileID: 2100000, guid: f1c021730251d8c4eb1214c9fdc98a03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M07]'
+    second: {fileID: 2100000, guid: 2a1b721fd0e79674fb385ba2c5e38f4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_000]2'
+    second: {fileID: 2100000, guid: 2b4080be224f99d4eb35e7aa8dbcd036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_002]'
+    second: {fileID: 2100000, guid: 5452b365db11c4542930f65984ef6b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_003]'
+    second: {fileID: 2100000, guid: 92bf989285a200344922e4d255b5f789, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_004]'
+    second: {fileID: 2100000, guid: 481ac866df8f58f4d81f81f425b265e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_006]'
+    second: {fileID: 2100000, guid: 9a579c185a345f643a33e78465b5fc36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_009]'
+    second: {fileID: 2100000, guid: 094c8de99417c0a4fa50b97080430718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_F01]'
+    second: {fileID: 2100000, guid: 3f0d32b64845cab48a35b2b34f17a9ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Metal Silver]'
+    second: {fileID: 2100000, guid: 0431a7b0a3e5e7748a5b6ad1b6ccdad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Metal_Corrogated_Shiny]'
+    second: {fileID: 2100000, guid: dac85e8da5d090f4483e599642c835c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Mosaic Hexagonal Tile]'
+    second: {fileID: 2100000, guid: da85300293dedae43809fd3f71ce5152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Textile Leaves Green]'
+    second: {fileID: 2100000, guid: 63e2af6ca0e80a64196e1f74d5bba1ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: e8bcd63ed1f8b464fa7cb1c648717112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4
+    second: {fileID: 2100000, guid: a08f33cd45c84f64b976b82bb6b40e13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6
+    second: {fileID: 2100000, guid: 17d6993098db5ee47abeef6e7c95396c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Charcoal_
+    second: {fileID: 2100000, guid: c91355406cc84004cb23b5fdd96f5d39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Gray6_
+    second: {fileID: 2100000, guid: 2d2468d73fd2f48449933688450d396a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 885409887437bcc48bfeb57cab7af49e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face-profile-bigger[1]
+    second: {fileID: 2100000, guid: 8673c1caf53e6b04580bf99029f44d0d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

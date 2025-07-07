@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 11b43a8aa31c1d144aea37f99ea95517
+timeCreated: 1534275262
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 9e6358ff616dccde5b4436109a6a8e4f
+  longitude: 0.35525705167141597
+  latitude: 46.578990543860535
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 28.329142, y: 8.425936, z: 30.465511}
+      lookAt: {x: -48.644093, y: -15.456369, z: -58.680782}
+      up: {x: -0.12987606, y: 0.9800548, z: -0.15041552}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: animal
+    100002: Animated Car
+    100004: awesome boat
+    100006: Componente#1
+    100008: Componente#1 1
+    100010: Componente#2
+    100012: Componente#2 1
+    100014: Componente#3
+    100016: Componente#3 1
+    100018: dog
+    100020: Doghouse
+    100022: Group 20
+    100024: Group 3
+    100026: Group 5
+    100028: Group 7
+    100030: Group 9
+    100032: Group#38
+    100034: Group#38 1
+    100036: Group#38 2
+    100038: Group#38 3
+    100040: //RootNode
+    100042: Turtle
+    100044: Yacht by Norman Foster 'Ocean Emerald'
+    400000: animal
+    400002: Animated Car
+    400004: awesome boat
+    400006: Componente#1
+    400008: Componente#1 1
+    400010: Componente#2
+    400012: Componente#2 1
+    400014: Componente#3
+    400016: Componente#3 1
+    400018: dog
+    400020: Doghouse
+    400022: Group 20
+    400024: Group 3
+    400026: Group 5
+    400028: Group 7
+    400030: Group 9
+    400032: Group#38
+    400034: Group#38 1
+    400036: Group#38 2
+    400038: Group#38 3
+    400040: //RootNode
+    400042: Turtle
+    400044: Yacht by Norman Foster 'Ocean Emerald'
+    2100000: _defaultMat
+    2100002: '[Water Deep]'
+    2100004: '[Mosaic Hexagonal Tile]'
+    2100006: '[Carrera Marble]'
+    2100008: '[Formica Laminate Light]'
+    2100010: '[Water Sparkling]'
+    2100012: '[Water Pool Light]'
+    2100014: DimGray1
+    2100016: FireBrick
+    2100018: Red
+    2100020: OrangeRed
+    2100022: Black2
+    2100024: OrangeRed1
+    2100026: White
+    2100028: White2
+    2100030: Silver
+    2100032: DarkGray1
+    2100034: Gray
+    2100036: DarkGray
+    2100038: Yellow1
+    2100040: Black
+    2100042: _8
+    2100044: Black1
+    2100046: Gold
+    2100048: '[0038_Orange]'
+    2100050: '[0096_SkyBlue]'
+    2100052: '[0075_ForestGreen]'
+    2100054: '[Color_009]'
+    2100056: '[0128_White]'
+    2100058: '[0092_Azure]'
+    2100060: '[0095_LightBlue]'
+    2100062: '[0090_LightCyan]'
+    2100064: '[0052_FloralWhite]'
+    2100066: Ivory
+    2100068: Charcoal
+    2100070: Tan
+    2100072: Orange
+    2100074: Gray1
+    2100076: CornflowerBlue
+    2100078: _Siding3_
+    2100080: _Shingles-Asphalt01_
+    2100082: _WarmGray8_
+    2100084: _ForestGreen_
+    2100086: _YellowGreen_
+    2100088: _GrassGreen_
+    2100090: _Black_
+    2100092: _Burnt Umber_1
+    2100094: '[Color_A02]'
+    2100096: _DimGray_1
+    2100098: '[Wood_Floor_Light]'
+    2100100: '[Metal_Aluminum_Anodized]1'
+    2100102: '[Translucent_Glass_Gray]'
+    2300000: Componente#1
+    2300002: Componente#1 1
+    2300004: Componente#2
+    2300006: Componente#2 1
+    2300008: Componente#3
+    2300010: Componente#3 1
+    2300012: dog
+    2300014: Doghouse
+    2300016: Group 20
+    2300018: Group 3
+    2300020: Group 5
+    2300022: Group 7
+    2300024: Group 9
+    2300026: Group#38
+    2300028: Group#38 1
+    2300030: Group#38 2
+    2300032: Group#38 3
+    2300034: //RootNode
+    2300036: Turtle
+    2300038: Yacht by Norman Foster 'Ocean Emerald'
+    3300000: Componente#1
+    3300002: Componente#1 1
+    3300004: Componente#2
+    3300006: Componente#2 1
+    3300008: Componente#3
+    3300010: Componente#3 1
+    3300012: dog
+    3300014: Doghouse
+    3300016: Group 20
+    3300018: Group 3
+    3300020: Group 5
+    3300022: Group 7
+    3300024: Group 9
+    3300026: Group#38
+    3300028: Group#38 1
+    3300030: Group#38 2
+    3300032: Group#38 3
+    3300034: //RootNode
+    3300036: Turtle
+    3300038: Yacht by Norman Foster 'Ocean Emerald'
+    4300000: Mesh Ocean_Env
+    4300002: Mesh Group 3
+    4300004: Mesh Group 5
+    4300006: Mesh Group 7
+    4300008: Mesh Group 9
+    4300010: Mesh Group#38
+    4300012: Mesh Group 20
+    4300014: Mesh Componente#1
+    4300016: Mesh Componente#3
+    4300018: Mesh Componente#2
+    4300020: Mesh dog
+    4300022: Mesh Doghouse
+    4300024: Mesh Turtle
+    4300026: Mesh Yacht by Norman Foster 'Ocean Emerald'
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
