@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn
+YMaze_Settings,frost-b9bef550-a341-4142-89e1-0d48905d88c9,1,1,1,1,6.991204,17.68323,nature,start

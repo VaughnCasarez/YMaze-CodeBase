@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn
+YMaze_Settings,eagle-d8f45af4-d105-4db4-b324-2d2097bb1ef7,1,1,1,1,12.20658,52.12129,nature,start

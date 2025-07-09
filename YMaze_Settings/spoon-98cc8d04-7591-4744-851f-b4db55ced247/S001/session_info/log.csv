@@ -1,0 +1,10 @@
+timestamp,log_type,message,stacktrace
+9.712946,Log,[<b><color=#AD477C>UXF</color></b>] Beginning session.,UnityEngine.Debug:Log (object).  UXF.Utilities:UXFDebugLog (string) (at Assets/UXF/Scripts/Etc/Utilities.cs:13).  UXF.Session:Begin (stringstringintSystem.Collections.Generic.Dictionary`2<string object>UXF.Settings) (at Assets/UXF/Scripts/Session.cs:347).  UXF.UI.UIController/<TryBeginSessionFromUISequence>d__43:MoveNext () (at Assets/UXF/Scripts/UI/UIController.cs:421).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  UXF.UI.UIController:TryBeginSessionFromUI () (at Assets/UXF/Scripts/UI/UIController.cs:214).  UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs:530).  
+19.57999,Log,Correct!,UnityEngine.Debug:Log (object).  YMaze_transition:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/YMaze_transition.cs:78).  
+31.45999,Log,Correct!,UnityEngine.Debug:Log (object).  YMaze_transition:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/YMaze_transition.cs:78).  
+43.33998,Log,Correct!,UnityEngine.Debug:Log (object).  YMaze_transition:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/YMaze_transition.cs:78).  
+55.23998,Log,Correct!,UnityEngine.Debug:Log (object).  YMaze_transition:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/YMaze_transition.cs:78).  
+67.19997,Log,Correct!,UnityEngine.Debug:Log (object).  YMaze_transition:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/YMaze_transition.cs:78).  
+79.51997,Log,Change Environment!,UnityEngine.Debug:Log (object).  YMaze_transition:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/YMaze_transition.cs:64).  
+84.52087,Log,New ENV: office,UnityEngine.Debug:Log (object).  YMaze_transition/<WaitSeconds_ChangeEnvir>d__23:MoveNext () (at Assets/Scripts/YMaze_transition.cs:193).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+84.53997,Log,Correct!,UnityEngine.Debug:Log (object).  YMaze_transition:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/YMaze_transition.cs:78).  

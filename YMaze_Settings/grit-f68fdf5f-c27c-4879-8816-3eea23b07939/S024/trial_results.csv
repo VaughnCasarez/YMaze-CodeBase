@@ -1,0 +1,5 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn
+YMaze_Settings,grit-f68fdf5f-c27c-4879-8816-3eea23b07939,24,1,1,1,6.672771,19.49999,nature,start
+YMaze_Settings,grit-f68fdf5f-c27c-4879-8816-3eea23b07939,24,2,1,2,19.49999,31.47999,nature,start
+YMaze_Settings,grit-f68fdf5f-c27c-4879-8816-3eea23b07939,24,3,1,3,31.47999,43.37999,nature,start
+YMaze_Settings,grit-f68fdf5f-c27c-4879-8816-3eea23b07939,24,4,1,4,43.37999,59.8278,nature,start

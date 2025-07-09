@@ -1,0 +1,8 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn
+YMaze_Settings,spied-96eb1a97-c2d4-495a-8bc1-9a1d60a0c757,1,1,1,1,7.185161,18.91999,nature,start
+YMaze_Settings,spied-96eb1a97-c2d4-495a-8bc1-9a1d60a0c757,1,2,1,2,18.91999,30.97999,nature,start
+YMaze_Settings,spied-96eb1a97-c2d4-495a-8bc1-9a1d60a0c757,1,3,1,3,30.97999,43.41998,nature,start
+YMaze_Settings,spied-96eb1a97-c2d4-495a-8bc1-9a1d60a0c757,1,4,1,4,43.41998,55.41998,nature,start
+YMaze_Settings,spied-96eb1a97-c2d4-495a-8bc1-9a1d60a0c757,1,5,1,5,55.41998,67.71998,nature,start
+YMaze_Settings,spied-96eb1a97-c2d4-495a-8bc1-9a1d60a0c757,1,6,1,6,67.71998,67.71998,nature,wrong
+YMaze_Settings,spied-96eb1a97-c2d4-495a-8bc1-9a1d60a0c757,1,7,2,1,67.71998,80.58606,office,start

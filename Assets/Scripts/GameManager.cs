@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UXF;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 
-    public void GenerateExperiment(Session session)
+    // public void GenerateExperiment(Session session)
+    // {
+    //     int trialCount = session.settings.GetInt("trials");
+    //     Block mainBlock = session.CreateBlock(trialCount);
+    //     SceneManager.LoadScene(1);
+    // }
+    public void LoadScene()
     {
-        int trialCount = session.settings.GetStringList("trials").Count;
-        Block mainBlock = session.CreateBlock(trialCount);
-        // session.NextTrial.Begin();
+        SceneManager.LoadScene(1);
     }
-    
 }

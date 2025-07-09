@@ -1,0 +1,3 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn
+YMaze_Settings,tree-5eda98fe-4288-4d01-ab6a-42d32e656062,1,1,1,1,58.12067,92.15997,nature,start
+YMaze_Settings,tree-5eda98fe-4288-4d01-ab6a-42d32e656062,1,2,1,2,92.15997,96.06284,nature,start
