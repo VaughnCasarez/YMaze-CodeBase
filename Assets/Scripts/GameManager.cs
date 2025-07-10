@@ -7,14 +7,18 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
-    // public void GenerateExperiment(Session session)
-    // {
-    //     int trialCount = session.settings.GetInt("trials");
-    //     Block mainBlock = session.CreateBlock(trialCount);
-    //     SceneManager.LoadScene(1);
-    // }
+    void Start()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
     public void LoadScene()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    { 
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        Session.instance.trackedObjects.Add(player.GetComponent<PositionRotationTracker>());
     }
 }

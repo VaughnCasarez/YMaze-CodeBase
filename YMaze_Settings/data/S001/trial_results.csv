@@ -1,0 +1,11 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn,participant_movement_location_0
+YMaze_Settings,data,1,1,1,1,8.807909,18.69999,nature,start,YMaze_Settings/data/S001/trackers/participant_movement_T001.csv
+YMaze_Settings,data,1,2,1,2,21.70194,31.23999,nature,start,YMaze_Settings/data/S001/trackers/participant_movement_T002.csv
+YMaze_Settings,data,1,3,1,3,34.24162,43.57998,nature,start,YMaze_Settings/data/S001/trackers/participant_movement_T003.csv
+YMaze_Settings,data,1,4,1,4,46.58088,55.53998,nature,start,YMaze_Settings/data/S001/trackers/participant_movement_T004.csv
+YMaze_Settings,data,1,5,1,5,58.54114,67.73997,nature,start,YMaze_Settings/data/S001/trackers/participant_movement_T005.csv
+YMaze_Settings,data,1,6,1,6,70.74137,79.05997,nature,wrong,YMaze_Settings/data/S001/trackers/participant_movement_T006.csv
+YMaze_Settings,data,1,7,2,1,156.4808,158.1684,office,start,YMaze_Settings/data/S001/trackers/participant_movement_T007.csv
+YMaze_Settings,data,1,8,2,2,120.8214,129.82,office,start,YMaze_Settings/data/S001/trackers/participant_movement_T008.csv
+YMaze_Settings,data,1,9,2,3,132.8209,141.8999,office,start,YMaze_Settings/data/S001/trackers/participant_movement_T009.csv
+YMaze_Settings,data,1,10,2,4,144.9002,153.4799,office,start,YMaze_Settings/data/S001/trackers/participant_movement_T010.csv

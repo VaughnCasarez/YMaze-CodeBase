@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn
+YMaze_Settings,ship-28a327f5-28c3-4232-baeb-7401e6939fa9,1,1,1,1,36.00712,52.38421,nature,start

@@ -1,0 +1,8 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,environment,spawn,participant_movement_location_0
+YMaze_Settings,score-468223a6-9d0b-46d2-9d01-fd235cfd61d9,1,1,1,1,6.787707,24.81999,nature,start,YMaze_Settings/score-468223a6-9d0b-46d2-9d01-fd235cfd61d9/S001/trackers/participant_movement_T001.csv
+YMaze_Settings,score-468223a6-9d0b-46d2-9d01-fd235cfd61d9,1,2,1,2,24.81999,36.83999,nature,start,YMaze_Settings/score-468223a6-9d0b-46d2-9d01-fd235cfd61d9/S001/trackers/participant_movement_T002.csv
+YMaze_Settings,score-468223a6-9d0b-46d2-9d01-fd235cfd61d9,1,3,1,3,36.83999,48.87998,nature,start,YMaze_Settings/score-468223a6-9d0b-46d2-9d01-fd235cfd61d9/S001/trackers/participant_movement_T003.csv
+YMaze_Settings,score-468223a6-9d0b-46d2-9d01-fd235cfd61d9,1,4,1,4,48.87998,61.87998,nature,start,YMaze_Settings/score-468223a6-9d0b-46d2-9d01-fd235cfd61d9/S001/trackers/participant_movement_T004.csv
+YMaze_Settings,score-468223a6-9d0b-46d2-9d01-fd235cfd61d9,1,5,1,5,61.87998,73.93997,nature,start,YMaze_Settings/score-468223a6-9d0b-46d2-9d01-fd235cfd61d9/S001/trackers/participant_movement_T005.csv
+YMaze_Settings,score-468223a6-9d0b-46d2-9d01-fd235cfd61d9,1,6,1,6,73.93997,85.21997,nature,wrong,YMaze_Settings/score-468223a6-9d0b-46d2-9d01-fd235cfd61d9/S001/trackers/participant_movement_T006.csv
+YMaze_Settings,score-468223a6-9d0b-46d2-9d01-fd235cfd61d9,1,7,2,1,85.21997,92.06945,office,start,YMaze_Settings/score-468223a6-9d0b-46d2-9d01-fd235cfd61d9/S001/trackers/participant_movement_T007.csv

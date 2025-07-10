@@ -20,13 +20,6 @@ public class YMaze_transition : MonoBehaviour {
     public AudioSource correct;
     public AudioSource wrong;
 
-    //Demographic information
-
-
-    private int envir_num = 0;
-
-    private float record_time_interval = 1.0f;//how often the distance and position is recorded.
-
     //starting locations and orientations
     private Vector3 start_loc1 = new Vector3(36.52f, 0.0f, 22f);
     private Vector3 start_loc2 = new Vector3(0f, 0.0f, -34f);
@@ -37,12 +30,10 @@ public class YMaze_transition : MonoBehaviour {
 
     private float waitseconds = 3.0f;
     private float wait_transitions = 5.0f;
-    // Use this for initialization
+
+    private int repeated_trials = 0;
     void Start () {
         Session.instance.BeginNextTrial();
-        envir_num = Session.instance.settings.GetInt("environment_number");
-
-
         transform.position = start_loc1;
         transform.eulerAngles = Ori1;
         controller.Mousereset();
@@ -64,9 +55,8 @@ public class YMaze_transition : MonoBehaviour {
             Debug.Log("Change Environment!");
             DisableEnvironment();
             Session.instance.EndCurrentTrial();
-            Session.instance.BeginNextTrial();
-            Session.instance.settings.SetValue("block_trial_number", Session.instance.currentTrialNum);
-
+            repeated_trials = 0;
+            GetComponent<PositionRotationTracker>().objectName = "participant";
             StartCoroutine(WaitSeconds_ChangeEnvir(wait_transitions));
         }
         else
@@ -74,11 +64,8 @@ public class YMaze_transition : MonoBehaviour {
             if (col.gameObject.name == "Correct")
             {
                 Session.instance.EndCurrentTrial();
-
                 Debug.Log("Correct!");
                 correct.Play();
-
-                Session.instance.BeginNextTrial();
                 StartCoroutine(WaitSeconds_Teleport(waitseconds));
 
             }
@@ -86,7 +73,8 @@ public class YMaze_transition : MonoBehaviour {
             {
                 Session.instance.EndCurrentTrial();
                 Session.instance.currentTrialNum = Session.instance.settings.GetInt("block_trial_number") - 1;
-                Session.instance.BeginNextTrial();
+                repeated_trials++;
+                GetComponent<PositionRotationTracker>().objectName = $"{GetComponent<PositionRotationTracker>().objectName}_{repeated_trials}";
 
                 Debug.Log("Wrong!");
                 wrong.Play();
@@ -180,6 +168,7 @@ public class YMaze_transition : MonoBehaviour {
     {
         controller.m_WalkSpeed = 0.0f;
         yield return new WaitForSeconds(seconds);
+        Session.instance.BeginNextTrial();
         Teleport(Session.instance.CurrentTrial.settings.GetString("spawn"));
         controller.m_WalkSpeed = 10.0f;
     }
@@ -189,7 +178,8 @@ public class YMaze_transition : MonoBehaviour {
         blackscreen.enabled = true;
         text.enabled = true;
         yield return new WaitForSeconds(seconds - 2f);
-        Debug.Log("New ENV: " + Session.instance.CurrentTrial.settings.GetString("environment"));
+        Session.instance.BeginNextTrial();
+        Session.instance.settings.SetValue("block_trial_number", Session.instance.currentTrialNum);
         Teleport(Session.instance.CurrentTrial.settings.GetString("spawn"));
         yield return new WaitForSeconds(2f);
         LoadNewEnvironment();
