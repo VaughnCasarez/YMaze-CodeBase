@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using System.Collections;
@@ -32,10 +32,13 @@ public class YMaze_transition : MonoBehaviour {
     private float waitseconds = 3.0f;
     private float wait_transitions = 5.0f;
 
+    // Keeps track of the amount of times a trial was repeated per block
     private int repeated_trials = 0;
     void Start () {
+        //This starts the first trial of the experiment when the scene is first loaded
         Session.instance.BeginNextTrial();
         Session.instance.onSessionEnd.AddListener(EndSession);
+
         transform.position = start_loc1;
         transform.eulerAngles = Ori1;
         controller.Mousereset();
@@ -49,6 +52,10 @@ public class YMaze_transition : MonoBehaviour {
         }
     }
 
+    // When a player enters one of the zones, it can either be correct, wrong, or start
+    // If the player enters the correct zone, the trial ends and the correct sound is played, otherwises
+    // the trial ends and the wrong sound is played. Additionally, the player is teleported to the start location and
+    // must redo the trial.
     void OnTriggerEnter(Collider col)
     {
         if ((col.gameObject.name == "Correct" || col.gameObject.name == "Wrong" || col.gameObject.name == "Start")

@@ -2382,6 +2382,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
+      propertyPath: 'dataHandlers.Array.data[0]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: 'dataHandlers.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: 'dataHandlers.Array.data[2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
       propertyPath: 'customHeaders.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
@@ -2725,6 +2740,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2834388984357925155, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2896031059644693069, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: m_IsActive
@@ -2778,6 +2798,11 @@ PrefabInstance:
     - target: {fileID: 4267567203292169432, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267567203292169432, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4361773453260831254, guid: 0a3b6392f04558844bd340e68ced1ff9,
@@ -3010,12 +3035,43 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8307715182677704244, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8563684494448067901, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: m_Text
-      value: This experiment will take you through an environment where you need
-        to reach a specific goal. A ding will play when you reach the correct location,
-        otherwise, feel free to try again!
+      value: 'In this experiment you will be asked to navigate a "Y" shaped maze
+        and try to make it out. Each time you make it to the correct location you
+        will hear a bell chime, however, if you enter the wrong location, you will
+        hear a loud buzzer.
+
+
+        You will need to successfully navigate the
+        maze 6 times until you are considered done with that version. After successful
+        completion of the maze, you will be introduced to another Y-maze enviroment
+        where you will need to complete the same goal. There are 5 of these environments
+        in total
+
+
+        This experiment is purely voluntary, and you will be allowed
+        to exit at any time with no consequence to yourself. The entire experiment
+        should take about 30 minutes to complete.
+
+
+        Controls
+
+        W =
+        Move forward
+
+        A  = Look left
+
+        S  = Move backwards
+
+        D 
+        = Look right'
       objectReference: {fileID: 0}
     - target: {fileID: 8857235641008765976, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}

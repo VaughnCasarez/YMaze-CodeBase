@@ -6,12 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    // The number of trials per block/environment.
     public int trials = 6;
+    // The list of environments, each representing a block in the experiment
     public List<string> environments = new List<string>() {"nature", "office", "stone", "ocean", "shop"};
     void Start()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
+
+    // This function is called from the UXF_Rig and generates the experiment.
+    // Since this version was made for WebGL, we cannot load our settings from a JSON or .csv file,
+    // so instead we manually code the blocks and trials.
     public void GenerateExperiment()
     {
         foreach(string env in environments)
@@ -33,6 +39,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    // This function is called when a new scene is loaded and adds the player to the list of tracked objects
+    // This is required for the position and rotation of the player to be tracked between scenes since
+    // the player is not a child of the rig.
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     { 
         GameObject player = GameObject.FindGameObjectWithTag("Player");

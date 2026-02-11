@@ -1272,7 +1272,7 @@ MonoBehaviour:
   m_StickToGroundForce: 10
   m_GravityMultiplier: 0
   m_MouseLook:
-    XSensitivity: 2
+    XSensitivity: 0.2
     YSensitivity: 2
     clampVerticalRotation: 1
     MinimumX: 0
