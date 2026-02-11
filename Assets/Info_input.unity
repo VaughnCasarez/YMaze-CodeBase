@@ -2623,7 +2623,7 @@ PrefabInstance:
     - target: {fileID: 1311505219725777297, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: url
-      value: http://localhost:3000/api/webBuild/uploadData
+      value: https://manyspaces.psych.gatech.edu/api/live-collection/dataProxy
       objectReference: {fileID: 0}
     - target: {fileID: 1311505219725777297, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -3023,7 +3023,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3518763724201751693, guid: 0a3b6392f04558844bd340e68ced1ff9, type: 3}
+    - {fileID: 966251848990994267, guid: 0a3b6392f04558844bd340e68ced1ff9, type: 3}
+    - {fileID: 4021406252896094857, guid: 0a3b6392f04558844bd340e68ced1ff9, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2834388984357925155, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}

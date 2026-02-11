@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections;
 using System.IO;
 using System.Collections.Generic;
+using System;
 using UXF;
 
 public class YMaze_transition : MonoBehaviour {
@@ -34,6 +35,7 @@ public class YMaze_transition : MonoBehaviour {
     private int repeated_trials = 0;
     void Start () {
         Session.instance.BeginNextTrial();
+        Session.instance.onSessionEnd.AddListener(EndSession);
         transform.position = start_loc1;
         transform.eulerAngles = Ori1;
         controller.Mousereset();
@@ -186,5 +188,11 @@ public class YMaze_transition : MonoBehaviour {
         blackscreen.enabled = false;
         text.enabled = false;
         controller.m_WalkSpeed = 10.0f;
+    }
+    public void EndSession(Session session)
+    {
+        blackscreen.enabled = true;
+        text.text = "The end of the experiment! \nThanks for your participation! \nPlease press the 'Esc' key to quit.";
+        text.enabled = true;
     }
 }

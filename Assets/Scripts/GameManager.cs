@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
                     exp_block.GetRelativeTrial(i + 1).settings.SetValue("spawn", "wrong");
             }
         }
+        Session.instance.settings.SetValue("block_trial_number", 1);
     }
     public void LoadScene()
     {
