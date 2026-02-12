@@ -37,5 +37,6 @@ public class GameManager : MonoBehaviour
     { 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         Session.instance.trackedObjects.Add(player.GetComponent<PositionRotationTracker>());
+        Session.instance.trackedObjects.Add(player.GetComponent<EyeTracking>());
     }
 }

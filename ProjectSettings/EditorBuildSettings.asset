@@ -12,6 +12,8 @@ EditorBuildSettings:
     path: Assets/YMaze.unity
     guid: 3e9620d6c6122f94287ee477f4f7726d
   m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0ca4504471ca124088e1e2cfe6804ae,
+      type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 12493f9db3ab6344d84f818126763d92,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a98fe0389fa150948b6e0bd8ef02c6c6,

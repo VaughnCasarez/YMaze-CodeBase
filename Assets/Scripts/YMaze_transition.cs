@@ -6,12 +6,13 @@ using System.IO;
 using System.Collections.Generic;
 using System;
 using UXF;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement;
 
 public class YMaze_transition : MonoBehaviour {
     public List<GameObject> environments = new List<GameObject>();
 
     //get the FPS controller
-    public UnityStandardAssets.Characters.FirstPerson.FirstPersonController controller;
+    public ContinuousMoveProvider controller;
 
     //UI
     public Image blackscreen;
@@ -22,9 +23,9 @@ public class YMaze_transition : MonoBehaviour {
     public AudioSource wrong;
 
     //starting locations and orientations
-    private Vector3 start_loc1 = new Vector3(36.52f, 0.0f, 22f);
-    private Vector3 start_loc2 = new Vector3(0f, 0.0f, -34f);
-    private Vector3 start_loc3 = new Vector3(-35.82f, 0.0f, 22f);
+    private Vector3 start_loc1 = new Vector3(36.52f, -3.42f, 22f);
+    private Vector3 start_loc2 = new Vector3(0f, -3.42f, -34f);
+    private Vector3 start_loc3 = new Vector3(-35.82f, -3.42f, 22f);
     private Vector3 Ori1 = new Vector3(0.0f, -120.0f, 0.0f);
     private Vector3 Ori2 = new Vector3(0.0f, 0.0f, 0.0f);
     private Vector3 Ori3 = new Vector3(0.0f, 120.0f, 0.0f);
@@ -38,7 +39,7 @@ public class YMaze_transition : MonoBehaviour {
         Session.instance.onSessionEnd.AddListener(EndSession);
         transform.position = start_loc1;
         transform.eulerAngles = Ori1;
-        controller.Mousereset();
+        //controller.Mousereset();
     }
 	
 	// Update is called once per frame
@@ -103,31 +104,31 @@ public class YMaze_transition : MonoBehaviour {
             {
                 transform.position = start_loc1;
                 transform.eulerAngles = Ori1;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else if (environment == "office")
             {
                 transform.position = start_loc1;
                 transform.eulerAngles = Ori1;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else if (environment == "stone")
             {
                 transform.position = start_loc2;
                 transform.eulerAngles = Ori2;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else if (environment == "ocean")
             {
                 transform.position = start_loc2;
                 transform.eulerAngles = Ori2;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else
             {
                 transform.position = start_loc1;
                 transform.eulerAngles = Ori1;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
         }
 
@@ -137,46 +138,46 @@ public class YMaze_transition : MonoBehaviour {
             {
                 transform.position = start_loc2;
                 transform.eulerAngles = Ori2;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else if (environment == "office")
             {
                 transform.position = start_loc2;
                 transform.eulerAngles = Ori2;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else if (environment == "stone")
             {
                 transform.position = start_loc1;
                 transform.eulerAngles = Ori1;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else if (environment == "ocean")
             {
                 transform.position = start_loc1;
                 transform.eulerAngles = Ori1;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
             else
             {
                 transform.position = start_loc2;
                 transform.eulerAngles = Ori2;
-                controller.Mousereset();
+                //controller.Mousereset();
             }
         }
     }
 
     IEnumerator WaitSeconds_Teleport(float seconds)
     {
-        controller.m_WalkSpeed = 0.0f;
+        controller.moveSpeed = 0.0f;
         yield return new WaitForSeconds(seconds);
         Session.instance.BeginNextTrial();
         Teleport(Session.instance.CurrentTrial.settings.GetString("spawn"));
-        controller.m_WalkSpeed = 10.0f;
+        controller.moveSpeed = 10.0f;
     }
     IEnumerator WaitSeconds_ChangeEnvir(float seconds)
     {
-        controller.m_WalkSpeed = 0.0f;
+        controller.moveSpeed = 0.0f;
         blackscreen.enabled = true;
         text.enabled = true;
         yield return new WaitForSeconds(seconds - 2f);
@@ -187,7 +188,7 @@ public class YMaze_transition : MonoBehaviour {
         LoadNewEnvironment();
         blackscreen.enabled = false;
         text.enabled = false;
-        controller.m_WalkSpeed = 10.0f;
+        controller.moveSpeed = 10.0f;
     }
     public void EndSession(Session session)
     {
