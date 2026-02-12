@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/YMaze.unity
     guid: 3e9620d6c6122f94287ee477f4f7726d
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 12493f9db3ab6344d84f818126763d92,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a98fe0389fa150948b6e0bd8ef02c6c6,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
