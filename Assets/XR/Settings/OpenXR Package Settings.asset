@@ -724,6 +724,7 @@ MonoBehaviour:
   - {fileID: 311518457170796462}
   - {fileID: 489849277543795712}
   - {fileID: -1794759234232481674}
+  - {fileID: 8912251722507425882}
   - {fileID: 8072098321894843154}
   - {fileID: 7200004319763634560}
   - {fileID: 8759367051122468116}
@@ -790,11 +791,11 @@ MonoBehaviour:
   m_Name: MeshingTeapotFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Meshing Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.example.meshing
   openxrExtensionStrings: 
-  company: 
+  company: HTC
   priority: 0
   required: 0
   m_XrInstance: 0

@@ -195,7 +195,7 @@ public class EyeTracking : Tracker
         row.Add(("combined_gaze_origin_z", combinedOrigin.z));
 
         if (leftDirection != Vector3.zero && rightDirection != Vector3.zero)
-            combinedDirection = leftDirection.normalized;//(leftDirection.normalized + rightDirection.normalized).normalized;
+            combinedDirection = (leftDirection.normalized + rightDirection.normalized).normalized;
 
         row.Add(("combined_gaze_direction_x", combinedDirection.x));
         row.Add(("combined_gaze_direction_y", combinedDirection.y));
@@ -204,8 +204,8 @@ public class EyeTracking : Tracker
         Transform hmd = Camera.main.transform;
 
         // Convert tracking-space gaze to world-space
-        Vector3 worldOrigin = hmd.TransformPoint(combinedOrigin);
-        Vector3 worldDirection = hmd.TransformDirection(combinedDirection);
+        Vector3 worldOrigin = hmd.position + hmd.rotation * combinedOrigin;
+        Vector3 worldDirection = Camera.main.transform.parent.parent.TransformDirection(combinedDirection).normalized;
 
         RaycastHit hit;
         if (Physics.Raycast(worldOrigin, worldDirection, out hit, Mathf.Infinity))
