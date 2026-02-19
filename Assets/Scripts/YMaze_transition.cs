@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System;
 using UXF;
 using UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class YMaze_transition : MonoBehaviour {
     public List<GameObject> environments = new List<GameObject>();
@@ -169,15 +170,15 @@ public class YMaze_transition : MonoBehaviour {
 
     IEnumerator WaitSeconds_Teleport(float seconds)
     {
-        controller.moveSpeed = 0.0f;
+        controller.enabled = false;
         yield return new WaitForSeconds(seconds);
         Session.instance.BeginNextTrial();
         Teleport(Session.instance.CurrentTrial.settings.GetString("spawn"));
-        controller.moveSpeed = 10.0f;
+        controller.enabled = true;
     }
     IEnumerator WaitSeconds_ChangeEnvir(float seconds)
     {
-        controller.moveSpeed = 0.0f;
+        controller.enabled = false;
         blackscreen.enabled = true;
         text.enabled = true;
         yield return new WaitForSeconds(seconds - 2f);
@@ -188,7 +189,7 @@ public class YMaze_transition : MonoBehaviour {
         LoadNewEnvironment();
         blackscreen.enabled = false;
         text.enabled = false;
-        controller.moveSpeed = 10.0f;
+        controller.enabled = true;
     }
     public void EndSession(Session session)
     {
