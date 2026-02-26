@@ -14,6 +14,7 @@ public class YMaze_transition : MonoBehaviour {
 
     //get the FPS controller
     public ContinuousMoveProvider controller;
+    public GameObject cam;
 
     //UI
     public Image blackscreen;
@@ -60,7 +61,8 @@ public class YMaze_transition : MonoBehaviour {
             DisableEnvironment();
             Session.instance.EndCurrentTrial();
             repeated_trials = 0;
-            GetComponent<PositionRotationTracker>().objectName = "participant";
+            cam.GetComponent<PositionRotationTracker>().objectName = "participant";
+            GetComponent<EyeTracking>().objectName = "participant";
             StartCoroutine(WaitSeconds_ChangeEnvir(wait_transitions));
         }
         else
@@ -78,8 +80,8 @@ public class YMaze_transition : MonoBehaviour {
                 Session.instance.EndCurrentTrial();
                 Session.instance.currentTrialNum = Session.instance.settings.GetInt("block_trial_number") - 1;
                 repeated_trials++;
-                GetComponent<PositionRotationTracker>().objectName = $"{GetComponent<PositionRotationTracker>().objectName}_{repeated_trials}";
-
+                cam.GetComponent<PositionRotationTracker>().objectName = $"{cam.GetComponent<PositionRotationTracker>().objectName}_{repeated_trials}";
+                GetComponent<EyeTracking>().objectName = $"{GetComponent<EyeTracking>().objectName}_{repeated_trials}";
                 Debug.Log("Wrong!");
                 wrong.Play();
                 StartCoroutine(WaitSeconds_Teleport(waitseconds));

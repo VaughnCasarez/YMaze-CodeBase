@@ -35,8 +35,9 @@ public class GameManager : MonoBehaviour
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     { 
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
+        Session.instance.trackedObjects.Add(camera.GetComponent<PositionRotationTracker>());
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        Session.instance.trackedObjects.Add(player.GetComponent<PositionRotationTracker>());
         Session.instance.trackedObjects.Add(player.GetComponent<EyeTracking>());
     }
 }

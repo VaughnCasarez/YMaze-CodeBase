@@ -7,7 +7,7 @@ using VIVE.OpenXR.EyeTracker;
 
 public class EyeTracking : Tracker
 {
-    public Transform tracker;
+    //public Transform tracker;
     public override string MeasurementDescriptor => "eye_tracking";
 
     public override IEnumerable<string> CustomHeader =>
@@ -212,7 +212,7 @@ public class EyeTracking : Tracker
         {
             Debug.DrawRay(worldOrigin, worldDirection * hit.distance, Color.yellow);
             Debug.Log("Currently looking at: " + hit.collider.gameObject.name);
-            tracker.position = hit.point;
+            //tracker.position = hit.point;
 
             row.Add(("focus_point_x", hit.point.x));
             row.Add(("focus_point_y", hit.point.y));
