@@ -33,6 +33,9 @@ public class GameManager : MonoBehaviour
             }
         }
         Session.instance.settings.SetValue("block_trial_number", 1);
+        Debug.Log(Session.instance.ppid);
+        Session.instance.ppid = $"{Session.instance.participantDetails["siteName"]}_{Session.instance.participantDetails["labId"]}_{Session.instance.ppid}";
+        Debug.Log(Session.instance.ppid);
     }
     public void LoadScene()
     {

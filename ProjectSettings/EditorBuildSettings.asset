@@ -6,8 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Info_input.unity
+    path: Assets/Scenes/Info_input.unity
     guid: 9a2e0d061c7e96d4c8123d0b730777e3
   - enabled: 1
-    path: Assets/YMaze.unity
+    path: Assets/Scenes/YMaze.unity
     guid: 3e9620d6c6122f94287ee477f4f7726d
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
