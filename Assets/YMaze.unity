@@ -2593,6 +2593,7 @@ MonoBehaviour:
   text: {fileID: 893649657}
   correct: {fileID: 748391441}
   wrong: {fileID: 748391447}
+  centerpoint: {fileID: 0}
 --- !u!82 &748391447
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3992,6 +3993,7 @@ MonoBehaviour:
   text: {fileID: 893649657}
   correct: {fileID: 1244183974}
   wrong: {fileID: 1244183973}
+  centerpoint: {fileID: 1461036672}
 --- !u!82 &1244183973
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4888,6 +4890,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a07ef133a37d140a87cdf1f1c75fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1461036671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461036672}
+  m_Layer: 0
+  m_Name: CenterLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1461036672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461036671}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.17, y: 1.337, z: 1.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1470262774
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,3 +6306,4 @@ SceneRoots:
   - {fileID: 256693851}
   - {fileID: 1798736525}
   - {fileID: 386407655}
+  - {fileID: 1461036672}

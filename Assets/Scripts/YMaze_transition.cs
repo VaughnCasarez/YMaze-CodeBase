@@ -28,9 +28,7 @@ public class YMaze_transition : MonoBehaviour {
     private Vector3 start_loc1 = new Vector3(36.52f, -3.42f, 22f);
     private Vector3 start_loc2 = new Vector3(0f, -3.42f, -34f);
     private Vector3 start_loc3 = new Vector3(-35.82f, -3.42f, 22f);
-    private Vector3 Ori1 = new Vector3(0.0f, -120.0f, 0.0f);
-    private Vector3 Ori2 = new Vector3(0.0f, 0.0f, 0.0f);
-    private Vector3 Ori3 = new Vector3(0.0f, 120.0f, 0.0f);
+    public Transform centerpoint;
 
     private float waitseconds = 3.0f;
     private float wait_transitions = 5.0f;
@@ -40,7 +38,7 @@ public class YMaze_transition : MonoBehaviour {
         Session.instance.BeginNextTrial();
         Session.instance.onSessionEnd.AddListener(EndSession);
         transform.position = start_loc1;
-        transform.eulerAngles = Ori1;
+        FaceCenterpoint();
         //controller.Mousereset();
     }
 	
@@ -106,31 +104,31 @@ public class YMaze_transition : MonoBehaviour {
             if (environment == "nature")
             {
                 transform.position = start_loc1;
-                transform.eulerAngles = Ori1;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else if (environment == "office")
             {
                 transform.position = start_loc1;
-                transform.eulerAngles = Ori1;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else if (environment == "stone")
             {
                 transform.position = start_loc2;
-                transform.eulerAngles = Ori2;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else if (environment == "ocean")
             {
                 transform.position = start_loc2;
-                transform.eulerAngles = Ori2;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else
             {
                 transform.position = start_loc1;
-                transform.eulerAngles = Ori1;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
         }
@@ -140,34 +138,53 @@ public class YMaze_transition : MonoBehaviour {
             if (environment == "nature")
             {
                 transform.position = start_loc2;
-                transform.eulerAngles = Ori2;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else if (environment == "office")
             {
                 transform.position = start_loc2;
-                transform.eulerAngles = Ori2;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else if (environment == "stone")
             {
                 transform.position = start_loc1;
-                transform.eulerAngles = Ori1;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else if (environment == "ocean")
             {
                 transform.position = start_loc1;
-                transform.eulerAngles = Ori1;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
             else
             {
                 transform.position = start_loc2;
-                transform.eulerAngles = Ori2;
+                FaceCenterpoint();
                 //controller.Mousereset();
             }
         }
+    }
+
+    void FaceCenterpoint()
+    {
+        if (centerpoint == null) return;
+
+        // Flat direction from player to centerpoint
+        Vector3 targetDir = centerpoint.position - transform.position;
+        targetDir.y = 0;
+        if (targetDir == Vector3.zero) return;
+
+        // Current camera (HMD) forward on the horizontal plane
+        Vector3 camForward = cam.transform.forward;
+        camForward.y = 0;
+        if (camForward == Vector3.zero) return;
+
+        // Rotate the rig by the delta so the HMD ends up facing the target
+        float angleDelta = Vector3.SignedAngle(camForward, targetDir, Vector3.up);
+        transform.Rotate(Vector3.up, angleDelta, Space.World);
     }
 
     IEnumerator WaitSeconds_Teleport(float seconds)
