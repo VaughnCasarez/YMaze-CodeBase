@@ -19,7 +19,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_vive_cosmos_controller_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-8964482320434934465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +41,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_UNITY_null_gfx XR_UNITY_android_present
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   ignoreValidationErrors: 0
 --- !u!114 &-8731387189881786866
 MonoBehaviour:
@@ -60,7 +64,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_FB_touch_controller_pro
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-8595819473477094518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,7 +86,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_hand_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-8574693893536189644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,7 +108,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   m_ViveHandInteraction: 0
   m_ViveWristTracker: 0
   m_ViveXRTracker: 0
@@ -124,7 +134,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_eye_tracker
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-8030847492502457504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,7 +156,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_vive_focus3_controller_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-7894530328212004082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +178,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_palm_pose
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-7623682014936082116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,7 +200,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_eye_gaze_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-7565710649231685856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +222,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_passthrough
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-7555744434987164642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,7 +244,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_KHR_composition_layer_cylinder
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-7397567304230394552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,7 +266,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_enterprise_command
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-6659299673511265625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,7 +288,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_KHR_binding_modification XR_EXT_dpad_binding
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   forceThresholdLeft: 0.5
   forceThresholdReleaseLeft: 0.4
   centerRegionLeft: 0.5
@@ -297,7 +323,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_MSFT_first_person_observer
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-6243904346421405050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,7 +345,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_FB_display_refresh_rate
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-6224261586878339676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,7 +367,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_passthrough XR_HTC_passthrough_configuration
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-5952995801064025189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +389,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-5952124610228364335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,14 +404,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-5502756525970621383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,7 +433,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-5434098120978800707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,7 +455,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_KHR_composition_layer_equirect XR_KHR_composition_layer_equirect2
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-5411022218408799092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +477,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_KHR_composition_layer_color_scale_bias
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-5061105306677193262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,7 +499,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-4872745440823993797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,11 +551,14 @@ MonoBehaviour:
   - {fileID: 3272123764451789014}
   - {fileID: -2289528107855830571}
   - {fileID: 2047632721628454179}
+  customLoaderName: 
   m_renderMode: 1
+  m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
+  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
@@ -573,11 +620,14 @@ MonoBehaviour:
   - {fileID: 4933135639090696268}
   - {fileID: -6344196400568825423}
   - {fileID: 4721862463759219618}
+  customLoaderName: 
   m_renderMode: 1
+  m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
+  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
@@ -602,7 +652,10 @@ MonoBehaviour:
     XR_META_vulkan_swapchain_create_info
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
+  enableSubsampledLayout: 0
 --- !u!114 &-4244332777224384994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,7 +675,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_UNITY_null_gfx XR_UNITY_android_present
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   ignoreValidationErrors: 0
 --- !u!114 &-4235794407921246029
 MonoBehaviour:
@@ -643,7 +698,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_composition_layer_extra_settings
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   SettingsEditorEnableSharpening: 0
   supportSharpening: 0
   SettingsEditorSharpeningMode: 0
@@ -667,7 +724,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_performance_settings
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-3993015847437735280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,7 +746,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hp_mixed_reality_controller
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-3628469203079873791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -707,7 +768,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   m_XrInstance: 0
   m_XrSession: 0
   m_systemid: 0
@@ -730,7 +793,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-2694008527485302408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,7 +815,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_hand_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-2517696021443500390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,14 +830,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274c02963f889a64e90bc2e596e21d13, type: 3}
   m_Name: HTCViveControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: HTC Vive Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.htcvive
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-2289528107855830571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,7 +859,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_vive_wrist_tracker_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-2218276067303576606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,14 +874,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
   openxrExtensionStrings: XR_META_touch_controller_plus
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-1809412249864264800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,7 +903,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_facial_tracking
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-1532228722573587968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -850,7 +925,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_path_enumeration
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-1340149171768386270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,7 +947,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   enableFuture: 0
   enableAnchor: 0
 --- !u!114 &-1211759098864163158
@@ -892,7 +971,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_frame_synchronization
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   m_SynchronizationMode: 1
 --- !u!114 &-889197956352762420
 MonoBehaviour:
@@ -913,7 +994,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_user_presence
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-844411462277970509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,7 +1016,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_palm_pose
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-643107609629431821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +1040,10 @@ MonoBehaviour:
     XR_META_vulkan_swapchain_create_info
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
+  enableSubsampledLayout: 0
 --- !u!114 &-306096935870971411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -975,7 +1063,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_MSFT_hand_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-104671417297871220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -988,14 +1078,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51409463ea680134696701b5f24fafc3, type: 3}
   m_Name: HTCViveTrackerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: HTC VIVE Tracker Profile
   version: 0.0.1
   featureIdInternal: com.massive.openxr.feature.input.htcvivetracker
   openxrExtensionStrings: XR_HTCX_vive_tracker_interaction
   company: MASSIVE
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-1737444309364916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,14 +1100,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
   openxrExtensionStrings: XR_FB_touch_controller_pro
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,7 +1146,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &552596825581938721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1072,7 +1168,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_plane_detection
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &846235678762220269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1092,7 +1190,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_MSFT_hand_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &850543857395863353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,7 +1212,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_conformance_automation
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &1146918342573954681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,7 +1234,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_conformance_automation
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &1466747786746528470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1152,7 +1256,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_facial_tracking
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &1546684727144918366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,7 +1278,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   m_ViveHandInteraction: 0
   m_ViveWristTracker: 0
   m_ViveXRTracker: 0
@@ -1196,7 +1304,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_eye_gaze_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &1862295782033207495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1216,7 +1326,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_anchor XR_EXT_future XR_HTC_anchor_persistence
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   enablePersistedAnchor: 1
 --- !u!114 &1948018308903535220
 MonoBehaviour:
@@ -1237,7 +1349,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_KHR_binding_modification XR_EXT_dpad_binding
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   forceThresholdLeft: 0.5
   forceThresholdReleaseLeft: 0.4
   centerRegionLeft: 0.5
@@ -1270,7 +1384,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_performance_settings
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &2104795705916120823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1290,7 +1406,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_MSFT_secondary_view_configuration
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   <IsAllowSpectatorCameraCapture360Image>k__BackingField: 0
   <IsEnableDebugLog>k__BackingField: 0
 --- !u!114 &2309958317110434551
@@ -1312,7 +1430,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   m_XrInstance: 0
   m_XrSession: 0
   m_systemid: 0
@@ -1328,14 +1448,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9ba5ccf170d54478c5df33f98aabc5, type: 3}
   m_Name: VIVEFocus3Profile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: VIVE Focus 3 Controller Interaction
   version: 1.0.0
   featureIdInternal: vive.openxr.feature.focus3controller
   openxrExtensionStrings: XR_HTC_vive_focus3_controller_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &2396275208787907086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1355,7 +1477,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_anchor XR_EXT_future XR_HTC_anchor_persistence
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   enablePersistedAnchor: 1
 --- !u!114 &2436696845036099212
 MonoBehaviour:
@@ -1376,7 +1500,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &2539781081243751466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,7 +1522,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_path_enumeration
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &2550436475609977792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1416,7 +1544,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_tracking
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &2698393621154965161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1436,7 +1566,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_tracking
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &3207120528001610426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1456,7 +1588,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   enableAutoFallback: 0
 --- !u!114 &3272123764451789014
 MonoBehaviour:
@@ -1477,7 +1611,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_vive_xr_tracker_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &3308829456427747645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1497,7 +1633,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_OCULUS_android_initialize_loader
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   targetDevices:
   - visibleName: Quest
     manifestName: quest
@@ -1515,12 +1653,14 @@ MonoBehaviour:
     manifestName: quest3s
     enabled: 1
   forceRemoveInternetPermission: 0
-  symmetricProjection: 0
-  foveatedRenderingApi: 0
+  m_symmetricProjection: 0
+  m_foveatedRenderingApi: 0
   systemSplashScreen: {fileID: 0}
-  optimizeBufferDiscards: 1
+  m_optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
+  optimizeMultiviewRenderRegions: 0
+  spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &3624834276200894612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,7 +1680,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   cacheSize: 1048576
   perThreadCacheSize: 51200
 --- !u!114 &3754869844838366759
@@ -1562,7 +1704,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_MSFT_scene_understanding
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   m_XrInstance: 0
   m_XrSession: 0
   m_systemid: 0
@@ -1585,7 +1729,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_OCULUS_android_initialize_loader
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   targetQuest: 1
   targetQuest2: 1
 --- !u!114 &4592540415082716405
@@ -1607,7 +1753,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_eye_tracker
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &4595338801136673854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1627,7 +1775,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &4721862463759219618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,7 +1797,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_performance_settings
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &4933135639090696268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1667,7 +1819,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_vive_wrist_tracker_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &5022067586715282740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1687,7 +1841,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &5822418978483914468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,7 +1863,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &5869311770148265022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1727,7 +1885,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_META_touch_controller_plus
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &5903248875692760575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,7 +1907,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_vive_xr_tracker_interaction
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &5926942367154909301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1767,7 +1929,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_foveation
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &6805882956945935034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,7 +1951,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_passthrough
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &7127851342789898056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,7 +1973,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_interaction
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &7158779417460761888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1822,11 +1990,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: -4103842348811858682}
+  customLoaderName: 
   m_renderMode: 1
+  m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
+  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
@@ -1849,7 +2020,9 @@ MonoBehaviour:
   openxrExtensionStrings: XR_HTC_passthrough XR_HTC_passthrough_configuration
   company: HTC
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &7548228290331718983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1869,7 +2042,9 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
   cacheSize: 1048576
   perThreadCacheSize: 51200
 --- !u!114 &8206195425693254254
@@ -1891,4 +2066,6 @@ MonoBehaviour:
   openxrExtensionStrings: 
   company: Unity
   priority: 0
+  targetOpenXRApiVersion: 
   required: 0
+  customRuntimeLoaderName: 
